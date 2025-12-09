@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insight Neuro - Open Source Tools for Machine Learning for Neural Interfaces</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            line-height: 1.6;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 2rem;
+        }
+
+        .logo {
+            font-size: 3.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .description {
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-bottom: 3rem;
+            opacity: 0.95;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .author {
+            font-size: 1rem;
+            font-weight: 400;
+            opacity: 0.9;
+            margin-bottom: 3rem;
+        }
+
+        .projects {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .projects h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .project {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .project:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .project h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .project p {
+            font-size: 0.95rem;
+            opacity: 0.9;
+            margin-bottom: 0.75rem;
+        }
+
+        .project a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            transition: opacity 0.2s ease;
+        }
+
+        .project a:hover {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2.5rem;
+            }
+            
+            .description {
+                font-size: 1.1rem;
+                padding: 0 1rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+
+            .projects {
+                padding: 0 1rem;
+            }
+
+            .project {
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 2rem;
+            }
+            
+            .description {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Insight Neuro</div>
+        <div class="description">
+            A collection of open source projects for tools for machine learning for neural interfaces.
+        </div>
+        <div class="author">
+            By Andrii Zahorodnii, MIT Fiete Lab
+        </div>
+        
+        <div class="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>neuroprobe</h3>
+                <p>Benchmark for evaluating iEEG foundation models</p>
+                <a href="https://github.com/insight-neuro/neuroprobe" target="_blank">github.com/insight-neuro/neuroprobe</a>
+            </div>
+            
+            <div class="project">
+                <h3>crane</h3>
+                <p>Python library for training and evaluating models of high-dimensional timeseries</p>
+                <a href="https://github.com/insight-neuro/crane" target="_blank">github.com/insight-neuro/crane</a>
+            </div>
+            
+            <div class="project">
+                <h3>ieeg-data</h3>
+                <p>Processing intracranial EEG datasets into the temporaldata format using brainsets</p>
+                <a href="https://github.com/insight-neuro/ieeg-data" target="_blank">github.com/insight-neuro/ieeg-data</a>
+            </div>
+            
+            <div class="project">
+                <h3>training-template</h3>
+                <p>Codebase template for Machine Learning for Neural Interfaces (MLNI) using crane, neuroprobe, and ieeg-data</p>
+                <a href="https://github.com/insight-neuro/training-template" target="_blank">github.com/insight-neuro/training-template</a>
+            </div>
+            
+            <div class="project">
+                <h3>MLNI</h3>
+                <p>Machine Learning for Neural Interfaces - MIT Winter 2026 Special Subject</p>
+                <a href="https://github.com/insight-neuro/MLNI" target="_blank">github.com/insight-neuro/MLNI</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
